@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>REBot: Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
   <!-- Bulma CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <!-- FontAwesome（可选） -->
@@ -13,9 +12,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css">
   <style>
     body { font-family: 'Noto Sans', sans-serif; }
-    .title-container { max-width: 55%; margin: auto; }
+    .title-container { max-width: 75%; margin: auto; }
     .title-container h1 { margin-bottom: 2.5rem; }
-    .main-video { width: 100%; max-width: 50%; aspect-ratio: 16 / 9; margin: auto; display: block; }
+    .title-container .subtitle { margin-top: 3.5rem !important; }
+    .affiliation-logo {margin-top: 1.5rem;}
+    .nus-logo-img {max-height: 100px;}
+    .author-text {font-size: 1.30rem; }
+    .venue-text {margin-top: 0.5rem; font-size: 1.5rem; font-weight: 500; color: #3273dc; font-style: italic;}
+    .main-video { width: 100%; max-width: 50%; aspect-ratio: 16 / 9; margin: auto; display: block; margin-top: 3.5rem;}
     .abstract { max-width: 50%; margin: 2rem auto; }
     .abstract p { text-align: justify; font-size: 1.2rem; line-height: 1.6; }
     #carousel-demo, #carousel-demo-2, #carousel-curriculum1, #carousel-curriculum2,
@@ -28,23 +32,38 @@
 <section class="section has-text-centered">
   <div class="title-container">
     <h1 class="title is-1">REBot: Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance</h1>
+
+    <p class="subtitle is-4">
+      Zihao Xu<sup>1*</sup>, Ce Hao<sup>1*</sup>, Chunzheng Wang<sup>2</sup>, Kuankuan Sima<sup>2</sup>, Fan Shi<sup>2</sup>, Jin Song Dong<sup>1</sup>
+    </p>
+
+    <p class="author-text">
+      <sup>1</sup>School of Computing, NUS; &nbsp;&nbsp; <sup>2</sup>Department of Electrical and Computer Engineering, NUS
+    </p>
+
+    <p class="author-text" style="margin-top: 0.3rem;">
+      <sup>*</sup> Equally contributed.
+    </p>
+
+    <div class="affiliation-logo">
+      <img src="figure/nus_logo.png"
+          alt="National University of Singapore"
+          class="nus-logo-img">
+    </div>
+
+    <p class="venue-text">
+      IEEE Robotics and Automation Letters (RA-L)
+    </p>
+
+  </div>
+
+
+
   </div>
 <iframe class="main-video" src="https://www.youtube.com/embed/7yZX4cAhVOE" 
         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 </section>
-<!-- <section class="section has-text-centered">
-  <div class="title-container">
-    <h1 class="title is-1">REBot: Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance</h1>
-  </div>
-  <iframe class="main-video"
-          src="https://www.youtube-nocookie.com/embed/7yZX4cAhVOE"
-          frameborder="0"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-  </iframe>
-</section> -->
 
 <!-- 摘要 -->
 <section class="section">
